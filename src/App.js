@@ -12,7 +12,7 @@ function App() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
-          <Nav activeKey={window.location.pathname}>
+          <Nav title="mainNav" activeKey={window.location.pathname}>
             <Nav.Link href="/signup">Signup</Nav.Link>
             <Nav.Link href="/login">Login</Nav.Link>
           </Nav>

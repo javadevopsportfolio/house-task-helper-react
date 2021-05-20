@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <unitTest version="1">
     <file path="C:\Users\Brian\house-task-helper-react\src\App.test.js">
-        <testCase name="renders learn react link" duration="39"/>
+        <testCase name="renders Nav bar" duration="48"/>
+    </file>
+    <file path="C:\Users\Brian\house-task-helper-react\src\containers\Login.test.js">
+        <testCase name="renders login" duration="42"/>
     </file>
 </unitTest>

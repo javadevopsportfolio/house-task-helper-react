@@ -16,8 +16,8 @@ export default function Login() {
   }
 
   return (
-    <div className="Login">
-      <Form onSubmit={handleSubmit}>
+    <div className="Login" title="loginPage">
+      <Form title="mainForm" onSubmit={handleSubmit}>
         <Form.Group size="lg" controlId="email">
           <Form.Label>Email</Form.Label>
           <Form.Control
@@ -30,6 +30,7 @@ export default function Login() {
         <Form.Group size="lg" controlId="password">
           <Form.Label>Password</Form.Label>
           <Form.Control
+            title="passwordControl"
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
